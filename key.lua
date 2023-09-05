@@ -285,7 +285,7 @@ function WhitelistCreate(L_8_arg0, L_9_arg1, L_10_arg2)
 	local function L_40_func(L_51_arg0)
 		L_51_arg0 = L_51_arg0 .. 'W'
 		L_51_arg0 = (tostring(L_51_arg0) .. ""):sub(1, 36)
-		local L_52_ = game.HttpService:JSONDecode(L_39_func('https://pastebin.com/raw/kj0JN32D' .. L_51_arg0))
+		local L_52_ = game.HttpService:JSONDecode(L_39_func('https://pastebin.com/raw/c3BzvCcz' .. L_51_arg0))
 		return L_52_.valid
 	end
 	local function L_41_func(L_53_arg0)
