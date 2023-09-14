@@ -47,12 +47,10 @@ end
 
 return TextDrawer
 
+--[[ Draw some text on the screen at the center of the viewport
 
 local TextDrawer = loadstring(game:HttpGet("https://paste.bingner.com/paste/te6gt/raw"))()
 
-
-
---[[ Draw some text on the screen at the center of the viewport
 local screenGui, textLabel = TextDrawer.drawText("Couldn't get the gun, the gun isn't dropped yet!", UDim2.new(0.5, 0, 0.5, 0)) -- Texto, Posiçao Adiciona a posição
 wait(5)
 TextDrawer.destroy(screenGui) -- destroy o gui
